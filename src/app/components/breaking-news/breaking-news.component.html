@@ -1,0 +1,30 @@
+<div class="container">
+
+    <div class="comics-details">
+
+        <h1>{{objComic.title}}</h1>
+
+        <p class="information">{{objComic.news}}</p>
+
+        <div class="control">
+            <app-rating-comic></app-rating-comic>
+        </div>
+
+    </div>
+
+    <div class="comic-image">
+
+        <img src="{{objComic.img}}" alt="Comic 1">
+
+        <div class="info">
+            <h2>Comic Data</h2>
+            <ul>
+                <li>Day: {{objComic.day}}</li>
+                <li>Month: {{objComic.month}}</li>
+                <li>Year: {{objComic.year}}</li>
+                <li>Comic number: {{objComic.num}}</li>
+            </ul>
+        </div>
+    </div>
+
+</div>

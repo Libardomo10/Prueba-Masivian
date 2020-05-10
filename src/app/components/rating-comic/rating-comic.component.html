@@ -1,0 +1,4 @@
+<bar-rating [rate]="score" (rateChange)="onScore($event)" [max]="5" theme="stars"></bar-rating>
+
+<p *ngIf="!scored">Comic score: {{score}}</p>
+<p *ngIf="scored">Your score for the comic is: {{score}} <i class="reset fa fa-times-circle" (click)="scoreReset()"></i></p>

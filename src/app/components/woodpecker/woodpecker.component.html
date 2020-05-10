@@ -1,0 +1,32 @@
+<div class="container">
+
+    <div class="comics-details">
+
+        <h1>{{objComicW.title}}</h1>
+
+        <p class="information">{{objComicW.news}}</p>
+
+        <div class="control">
+            <app-rating-comic></app-rating-comic>
+        </div>
+
+    </div>
+
+    <div class="comic-image">
+
+        <img src="{{objComicW.img}}" alt="Comic 1">
+        <!-- <img src="https://imgs.xkcd.com/comics/preprint.png" alt="Comic 1"> -->
+        <!-- <img src="https://imgs.xkcd.com/comics/woodpecker.png" alt="Comic 1"> -->
+
+        <div class="info">
+            <h2>Comic Data</h2>
+            <ul>
+                <li>Day: {{objComicW.day}}</li>
+                <li>Month: {{objComicW.month}}</li>
+                <li>Year: {{objComicW.year}}</li>
+                <li>Comic number: {{objComicW.num}}</li>
+            </ul>
+        </div>
+    </div>
+
+</div>

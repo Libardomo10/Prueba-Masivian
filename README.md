@@ -1,6 +1,6 @@
 ## PruebaMasivian
 
-## ¿Como correr el proyecto?
+## ¿Cómo correr el proyecto?
 
 Se debe tener instalado node js y el Cli de Angular [`npm install -g @angular/cli`].
 
